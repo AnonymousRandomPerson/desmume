@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		39D48E1C26883A20007B9B4B /* MacMemoryViewerController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 39D48E1B26883A1F007B9B4B /* MacMemoryViewerController.mm */; };
+		39D48E1D26883A20007B9B4B /* MacMemoryViewerController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 39D48E1B26883A1F007B9B4B /* MacMemoryViewerController.mm */; };
+		39D48E1E26883A20007B9B4B /* MacMemoryViewerController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 39D48E1B26883A1F007B9B4B /* MacMemoryViewerController.mm */; };
+		39D48E1F26883A20007B9B4B /* MacMemoryViewerController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 39D48E1B26883A1F007B9B4B /* MacMemoryViewerController.mm */; };
+		39D48E2026883A20007B9B4B /* MacMemoryViewerController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 39D48E1B26883A1F007B9B4B /* MacMemoryViewerController.mm */; };
+		39D48E2126883A20007B9B4B /* MacMemoryViewerController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 39D48E1B26883A1F007B9B4B /* MacMemoryViewerController.mm */; };
+		39E413FA2689376B0095B11F /* MemoryViewer.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39E413F92689376B0095B11F /* MemoryViewer.xib */; };
+		39E413FB2689376B0095B11F /* MemoryViewer.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39E413F92689376B0095B11F /* MemoryViewer.xib */; };
+		39E413FC2689376B0095B11F /* MemoryViewer.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39E413F92689376B0095B11F /* MemoryViewer.xib */; };
+		39E413FD2689376B0095B11F /* MemoryViewer.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39E413F92689376B0095B11F /* MemoryViewer.xib */; };
+		39E413FE2689376B0095B11F /* MemoryViewer.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39E413F92689376B0095B11F /* MemoryViewer.xib */; };
+		39E413FF2689376B0095B11F /* MemoryViewer.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39E413F92689376B0095B11F /* MemoryViewer.xib */; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
 		AB000DCB1CCC6B0700413F02 /* file_path.c in Sources */ = {isa = PBXBuildFile; fileRef = AB000DC01CCC6B0700413F02 /* file_path.c */; };
 		AB000DCF1CCC6B0700413F02 /* retro_dirent.c in Sources */ = {isa = PBXBuildFile; fileRef = AB000DC61CCC6B0700413F02 /* retro_dirent.c */; };
@@ -2220,6 +2232,9 @@
 		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		39D48E1A268838C4007B9B4B /* MacMemoryViewerController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MacMemoryViewerController.h; sourceTree = "<group>"; };
+		39D48E1B26883A1F007B9B4B /* MacMemoryViewerController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = MacMemoryViewerController.mm; sourceTree = "<group>"; };
+		39E413F92689376B0095B11F /* MemoryViewer.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MemoryViewer.xib; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* DeSmuME.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeSmuME.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB000DC01CCC6B0700413F02 /* file_path.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = file_path.c; sourceTree = "<group>"; };
@@ -3293,6 +3308,7 @@
 				ABC2ECD613B1C87000FAAA2A /* Images */,
 				AB00E87C14205EBC00DE561F /* MainMenu.xib */,
 				AB8967DB16D2ED2700F826F1 /* DisplayWindow.xib */,
+				39E413F92689376B0095B11F /* MemoryViewer.xib */,
 				AB350D3A147A1D93007165AC /* HID_usage_strings.plist */,
 				8D1107310486CEB800E47090 /* Info.plist */,
 				AB02791814415E4C0075E58C /* Info (Debug).plist */,
@@ -3594,6 +3610,7 @@
 				AB01005C170D07AF00D70FBE /* InputProfileController.h */,
 				AB28624920AE3E7B00EAED43 /* MacAVCaptureTool.h */,
 				AB28624A20AE3E7B00EAED43 /* MacBaseCaptureTool.h */,
+				39D48E1A268838C4007B9B4B /* MacMemoryViewerController.h */,
 				AB3BF43F1E2628B6003E2B24 /* MacMetalDisplayView.h */,
 				AB3BF4051E22FEA8003E2B24 /* MacOGLDisplayView.h */,
 				ABD1FBF41F7B7EA600B4F648 /* MacScreenshotCaptureTool.h */,
@@ -3614,6 +3631,7 @@
 				AB01005D170D07B000D70FBE /* InputProfileController.mm */,
 				AB28624720AE3E7A00EAED43 /* MacAVCaptureTool.mm */,
 				AB28624820AE3E7A00EAED43 /* MacBaseCaptureTool.mm */,
+				39D48E1B26883A1F007B9B4B /* MacMemoryViewerController.mm */,
 				AB3BF43B1E26289E003E2B24 /* MacMetalDisplayView.mm */,
 				AB3BF4011E22FE01003E2B24 /* MacOGLDisplayView.mm */,
 				ABD1FBF01F7B7E7E00B4F648 /* MacScreenshotCaptureTool.mm */,
@@ -4632,6 +4650,7 @@
 				AB8493BC1B4E614D00CD1C73 /* Icon_VolumeMute_16x16@2x.png in Resources */,
 				AB0F294114BE6FA7009ABC6F /* ColorSwatch_Orange_16x16.png in Resources */,
 				AB0F294214BE6FA7009ABC6F /* ColorSwatch_Pink_16x16.png in Resources */,
+				39E413FF2689376B0095B11F /* MemoryViewer.xib in Resources */,
 				AB68101E187D4AEF0049F2C2 /* Icon_GuitarGrip_Button_Green_512x512.png in Resources */,
 				AB0F294314BE6FA7009ABC6F /* ColorSwatch_Red_16x16.png in Resources */,
 				AB8493BF1B4E614D00CD1C73 /* Icon_VolumeOneThird_16x16@2x.png in Resources */,
@@ -4741,6 +4760,7 @@
 				AB79016C215B84F20082AE82 /* Icon_VolumeMute_16x16@2x.png in Resources */,
 				AB79016D215B84F20082AE82 /* ColorSwatch_Orange_16x16.png in Resources */,
 				AB79016E215B84F20082AE82 /* ColorSwatch_Pink_16x16.png in Resources */,
+				39E413FD2689376B0095B11F /* MemoryViewer.xib in Resources */,
 				AB79016F215B84F20082AE82 /* Icon_GuitarGrip_Button_Green_512x512.png in Resources */,
 				AB790170215B84F20082AE82 /* ColorSwatch_Red_16x16.png in Resources */,
 				AB790171215B84F20082AE82 /* Icon_VolumeOneThird_16x16@2x.png in Resources */,
@@ -4850,6 +4870,7 @@
 				AB8493BB1B4E614D00CD1C73 /* Icon_VolumeMute_16x16@2x.png in Resources */,
 				AB796CC815CDCBA200C59155 /* ColorSwatch_Orange_16x16.png in Resources */,
 				AB796CC915CDCBA200C59155 /* ColorSwatch_Pink_16x16.png in Resources */,
+				39E413FA2689376B0095B11F /* MemoryViewer.xib in Resources */,
 				AB68101D187D4AEF0049F2C2 /* Icon_GuitarGrip_Button_Green_512x512.png in Resources */,
 				AB796CCA15CDCBA200C59155 /* ColorSwatch_Red_16x16.png in Resources */,
 				AB8493BE1B4E614D00CD1C73 /* Icon_VolumeOneThird_16x16@2x.png in Resources */,
@@ -4959,6 +4980,7 @@
 				AB79000F215B84E50082AE82 /* Icon_VolumeMute_16x16@2x.png in Resources */,
 				AB790010215B84E50082AE82 /* ColorSwatch_Orange_16x16.png in Resources */,
 				AB790011215B84E50082AE82 /* ColorSwatch_Pink_16x16.png in Resources */,
+				39E413FC2689376B0095B11F /* MemoryViewer.xib in Resources */,
 				AB790012215B84E50082AE82 /* Icon_GuitarGrip_Button_Green_512x512.png in Resources */,
 				AB790013215B84E50082AE82 /* ColorSwatch_Red_16x16.png in Resources */,
 				AB790014215B84E50082AE82 /* Icon_VolumeOneThird_16x16@2x.png in Resources */,
@@ -5068,6 +5090,7 @@
 				AB8493BD1B4E614D00CD1C73 /* Icon_VolumeMute_16x16@2x.png in Resources */,
 				AB8F3C3D1A53AC2600A80BF6 /* ColorSwatch_Orange_16x16.png in Resources */,
 				AB8F3C3E1A53AC2600A80BF6 /* ColorSwatch_Pink_16x16.png in Resources */,
+				39E413FB2689376B0095B11F /* MemoryViewer.xib in Resources */,
 				AB8F3C3F1A53AC2600A80BF6 /* Icon_GuitarGrip_Button_Green_512x512.png in Resources */,
 				AB8F3C401A53AC2600A80BF6 /* ColorSwatch_Red_16x16.png in Resources */,
 				AB8493C01B4E614D00CD1C73 /* Icon_VolumeOneThird_16x16@2x.png in Resources */,
@@ -5186,6 +5209,7 @@
 				ABE1448C1FBBA71A0097A4A8 /* Icon_VolumeMute_16x16@2x.png in Resources */,
 				ABE1448D1FBBA71A0097A4A8 /* ColorSwatch_Orange_16x16.png in Resources */,
 				ABE1448E1FBBA71A0097A4A8 /* ColorSwatch_Pink_16x16.png in Resources */,
+				39E413FE2689376B0095B11F /* MemoryViewer.xib in Resources */,
 				ABE1448F1FBBA71A0097A4A8 /* Icon_GuitarGrip_Button_Green_512x512.png in Resources */,
 				ABE144901FBBA71A0097A4A8 /* ColorSwatch_Red_16x16.png in Resources */,
 				ABE144911FBBA71A0097A4A8 /* Icon_VolumeOneThird_16x16@2x.png in Resources */,
@@ -5637,6 +5661,7 @@
 				AB3A656216CC5438001F5D4A /* cocoa_GPU.mm in Sources */,
 				AB9038B917C5ED2200F410BD /* slot1comp_rom.cpp in Sources */,
 				AB8967DA16D2ED0700F826F1 /* DisplayWindowController.mm in Sources */,
+				39D48E2126883A20007B9B4B /* MacMemoryViewerController.mm in Sources */,
 				AB29B33216D4BEBF000EF671 /* InputManager.mm in Sources */,
 				ABFEA8531BB4EC1100B08C25 /* ftstroke.c in Sources */,
 				ABFEA8E91BB4FB3100B08C25 /* truetype.c in Sources */,
@@ -5865,6 +5890,7 @@
 				AB79011C215B84E50082AE82 /* OGLRender_3_2.cpp in Sources */,
 				AB79011D215B84E50082AE82 /* EmuControllerDelegate.mm in Sources */,
 				AB79011E215B84E50082AE82 /* cocoa_GPU.mm in Sources */,
+				39D48E1E26883A20007B9B4B /* MacMemoryViewerController.mm in Sources */,
 				AB79011F215B84E50082AE82 /* DisplayWindowController.mm in Sources */,
 				AB790120215B84E50082AE82 /* InputManager.mm in Sources */,
 				AB790121215B84E50082AE82 /* slot1comp_protocol.cpp in Sources */,
@@ -6017,6 +6043,7 @@
 				AB79022D215B84F20082AE82 /* version.cpp in Sources */,
 				AB79022E215B84F20082AE82 /* vfat.cpp in Sources */,
 				AB79022F215B84F20082AE82 /* videofilter.cpp in Sources */,
+				39D48E1F26883A20007B9B4B /* MacMemoryViewerController.mm in Sources */,
 				AB790230215B84F20082AE82 /* slot2_passme.cpp in Sources */,
 				AB790231215B84F20082AE82 /* WavFile.cpp in Sources */,
 				AB790232215B84F20082AE82 /* wifi.cpp in Sources */,
@@ -6322,6 +6349,7 @@
 				AB26D87C16B5253D00A2305C /* OGLRender_3_2.cpp in Sources */,
 				AB3A655E16CC5421001F5D4A /* EmuControllerDelegate.mm in Sources */,
 				AB3A656116CC5438001F5D4A /* cocoa_GPU.mm in Sources */,
+				39D48E1C26883A20007B9B4B /* MacMemoryViewerController.mm in Sources */,
 				AB8967D916D2ED0700F826F1 /* DisplayWindowController.mm in Sources */,
 				AB29B33116D4BEBF000EF671 /* InputManager.mm in Sources */,
 				AB8B7AAC17CE8C440051CEBF /* slot1comp_protocol.cpp in Sources */,
@@ -6474,6 +6502,7 @@
 				AB8F3CCE1A53AC2600A80BF6 /* version.cpp in Sources */,
 				AB8F3CCF1A53AC2600A80BF6 /* vfat.cpp in Sources */,
 				AB8F3CD01A53AC2600A80BF6 /* videofilter.cpp in Sources */,
+				39D48E1D26883A20007B9B4B /* MacMemoryViewerController.mm in Sources */,
 				AB8F3CD11A53AC2600A80BF6 /* slot2_passme.cpp in Sources */,
 				AB8F3CD21A53AC2600A80BF6 /* WavFile.cpp in Sources */,
 				AB8F3CD31A53AC2600A80BF6 /* wifi.cpp in Sources */,
@@ -6927,6 +6956,7 @@
 				ABE145871FBBA71A0097A4A8 /* x86compiler.cpp in Sources */,
 				ABE145881FBBA71A0097A4A8 /* sfnt.c in Sources */,
 				ABE145891FBBA71A0097A4A8 /* type1cid.c in Sources */,
+				39D48E2026883A20007B9B4B /* MacMemoryViewerController.mm in Sources */,
 				ABE1458A1FBBA71A0097A4A8 /* x86compilercontext.cpp in Sources */,
 				ABE1458B1FBBA71A0097A4A8 /* x86compilerfunc.cpp in Sources */,
 				ABE1458C1FBBA71A0097A4A8 /* x86compileritem.cpp in Sources */,

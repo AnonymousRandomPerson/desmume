@@ -212,7 +212,7 @@ struct ASMJIT_API StaticCodeGenerator : public Context
 		if(err)
 		{
 			fprintf(stderr, "mprotect failed: %s\n", strerror(errno));
-			abort();
+			//abort();
 		}
 	}
 
